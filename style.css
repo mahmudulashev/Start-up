@@ -71,6 +71,10 @@ a:hover {
     background-color: #74C69D;
     padding-bottom: 5rem;
     min-width: 100vw;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
 
 .hero-wrapper {
@@ -386,11 +390,6 @@ footer {
 
 
 
-@media (max-width: 1024px) {
-    
-}
-
-
 @media (max-width: 768px) {
 
     nav {
@@ -403,6 +402,7 @@ footer {
         justify-content: center;
         gap: 40px;
         min-width: 100vw;
+        margin-top: 15rem;
     }
 
     .hero-content {
