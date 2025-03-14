@@ -19,7 +19,7 @@
 
 header {
     background-color: #74C69D;
-    width: 100vw;
+    width: 100%;
 }
 
 .header-wrapper {
@@ -305,7 +305,7 @@ footer {
     background-color: #74C69D;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    min-width: 100vw;
+    width: 100%;
     margin-top: 4rem;
 }
 
