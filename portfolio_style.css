@@ -277,7 +277,6 @@ footer {
 @media (max-width: 768px) {
     .hamburger {
         display: block;
-        margin-right: 1.5rem;
     }
 
 
