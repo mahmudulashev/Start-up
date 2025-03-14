@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .container {
@@ -213,6 +214,10 @@ h2 {
     width: 40%;
 }
 
+.middle a:hover {
+    transform: scale(1.05);
+}
+
 .middle > a > img {
     width: 100%;
 }
@@ -303,6 +308,7 @@ footer {
     .middle > a  {
         width: 100%;
     }
+
 
     .footer-wrapper {
         justify-content: center;

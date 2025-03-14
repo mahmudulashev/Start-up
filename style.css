@@ -433,6 +433,11 @@ li {
     gap: 17px;
 }
 
+.teams-card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
 .team-member {
     font-family: Crimson Text;
     font-size: 1.5rem;
