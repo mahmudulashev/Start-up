@@ -87,6 +87,7 @@ a:hover {
 
 .hamburger {
     display: none;
+    
 }
 
 .nav-bar {
@@ -102,11 +103,18 @@ a:hover {
     width: 30px;
     margin-left: auto;
     position: relative;
+    cursor: pointer; /* Add cursor pointer */
+    transition: transform 0.3s ease; /* Add transition for hover effect */
 }
+
+.ham-menu:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
 .ham-menu span {
-    height: 5px;
+    height: 4px; /* Adjust height */
     width: 100%;
-    background-color: rgba(225,30,252,1);
+    background-color: white;
     border-radius: 25px;
     position: absolute;
     left: 50%;
@@ -114,6 +122,7 @@ a:hover {
     transform: translate(-50%, -50%);
     transition: .3s ease;
 }
+
 .ham-menu span:nth-child(1) {
     top: 25%;
 }
@@ -136,11 +145,18 @@ a:hover {
 }
 
 .ham-menu-ul li > a {
-    color: rgba(225,30,252,1);
+    color: white;
     text-transform: uppercase;
-    font-size: 2rem;
-    font-family: "Oswald", serif;
+    font-size: 1.4rem;
+    
+}
 
+li {
+    list-style: none;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
 }
 
 
@@ -487,12 +503,22 @@ footer {
     .hero {
         height: 100%;
     }
+
+    .header-wrapper {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .logo {
+        width: 75%;
+        margin-left: 0.5rem;
+    }
  
 
     .hero-wrapper {
         flex-direction: column-reverse;
-        justify-content: center;
-        gap: 40px;
+        justify-content: space-between;
+        
         margin-top: 5rem;
     }
 
@@ -528,6 +554,15 @@ footer {
 
     .info1-right {
         width: 100%;
+        align-items: center;
+    }
+
+    .beshinchi {
+        text-align: center;
+    }
+
+    .matn3 {
+        text-align: center;
     }
 
     .footer-wrapper {
